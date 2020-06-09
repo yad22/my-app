@@ -3,12 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from "./App";
 
-import Hi from "./practice_sample_hi";
-
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <div><App name="Hasan" age={22} developer={true}/></div>,
+<div><App name="Hasan" age={22} developer={true}/></div>,
   document.getElementById('root')
 );
 
@@ -27,10 +25,6 @@ ReactDOM.render(
 */
 //react identifies first small letter as built-in component and first capital letter as custom component
 
-ReactDOM.render(
-  <Hi name="Hasan"/>,
-  document.querySelector("#second_root")
-)
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
