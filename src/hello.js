@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import "./practice_css_2.css";
 
 function Hello({xName}) {
