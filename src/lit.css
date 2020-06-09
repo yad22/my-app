@@ -1,0 +1,19 @@
+#root2, .room {
+    height: 100%;
+    margin: 0;
+    margin: auto;
+    width: 80%;
+    border: 3px solid green;
+    padding: 10px;
+}
+  
+.lit {
+    background-color: white;
+    color: black;
+}
+  
+.dark {
+    background-color: black;
+    color: white;
+}
+  
