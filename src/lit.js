@@ -6,6 +6,8 @@ function Room() {
     const brightness = isLit ? "lit": "dark";
 
     let [incTemp, setTemp] = React.useState(36);
+
+    let [isOn, setState] = React.useState(true);
   
     return (
       <div className={`room ${brightness}`}>
@@ -22,6 +24,10 @@ function Room() {
         <button onClick={()=> setTemp(--incTemp)}>
             Decrease
         </button>
+        <br/>
+        The light is {isOn ? "ON" : "OFF"}
+        <button onClick={() => setState(isOn = true)}>ON</button>
+        <button onClick={() => setState((isOn = false))}>OFF</button>
 
       </div>
     )
