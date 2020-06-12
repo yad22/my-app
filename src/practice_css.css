@@ -1,15 +1,30 @@
 #bold {
-    color: red;
     font-weight: bold;
 }
-  
-body {
-  background-color: cornsilk;
+
+
+.whole {
+  height: 100%;
+  margin: auto;
+  width: 85%;
 }
 
-div.whole {
+.room {
+  height: 100%;
   margin: auto;
   width: 80%;
   border: 3px solid green;
   padding: 10px;
+  text-align: center;
+  
+}
+
+.lit {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
 }

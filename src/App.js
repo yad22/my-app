@@ -3,25 +3,22 @@ import './App.css';
 
 import Hello from "./hello";
 import "./practice_css.css";
-import Hi from "./practice_sample_hi";
-
-import "./lit.css";
-
-
-
 
 
 function App({name, age, developer}) {
   return <div className="whole">
-            <div>
-              <Room></Room>
-            </div>
+
             <h1>A SIMPLE SAMPLE REACT PAGE</h1>
-            A div in App.js updated by <strong>{name}</strong> who is {age - 2} years old, to create lists with React
+            App.js updated by <strong>{name}</strong> who is {age} years old, to create lists with React
+
             <br/>
+
             <Hello xName={name}></Hello>
+            <br/>
+            <Room></Room>
+
             <br/> <hr/>
-            <b>ToDoList</b>
+            <b>Programming Topics</b>
             <ol>
               <li id="bold">Python</li>
               <li id="bold">JavaScript</li>
@@ -31,19 +28,17 @@ function App({name, age, developer}) {
                 </ul>
               </li>
               <li id="bold">CSS</li>
-              <li id="bold">Medical Studies
+              <li id="bold">
+                Web Development
                 <ul>
-                  <li>Reproductive</li>
-                  <li>DRG</li>
-                  <li>Ortho</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>React js</li>
                 </ul>
               </li>
             </ol>
             <hr/>
-            <h2>Sample Calculation by JS in JSX</h2>
-            <p> Product of 20 and 10 is equal to {20*10} </p>
-            <hr/>
-            <Hi nameY={name}></Hi>
           </div>
 }
 
@@ -53,7 +48,7 @@ function Room() {
     const [isLit, setLit] = React.useState(false);
     const brightness = isLit ? "lit": "dark";
 
-    let [incTemp, setTemp] = React.useState(0);
+    let [incTemp, setTemp] = React.useState(36);
 
     let [isOn, setState] = React.useState(true);
     
