@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from "./App";
-import Room from "./lit";
+
 
 import * as serviceWorker from './serviceWorker';
 
@@ -26,7 +26,6 @@ ReactDOM.render(
 */
 //react identifies first small letter as built-in component and first capital letter as custom component
 
-ReactDOM.render(<Room />, document.getElementById("root2"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

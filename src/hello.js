@@ -1,5 +1,5 @@
 import React from 'react';
-import "./practice_css_2.css";
+
 
 function Hello({xName}) {
   return <p className="myname">
