@@ -3,17 +3,11 @@
 }
 
 
-.whole {
-  height: 100%;
-  margin: auto;
-  width: 85%;
-}
-
 .room {
   height: 100%;
   margin: auto;
   width: 80%;
-  border: 3px solid green;
+  border: 3px solid turquoise;
   padding: 10px;
   text-align: center;
   
